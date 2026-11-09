@@ -1,0 +1,16 @@
+
+Pod::Spec.new do |s|
+  s.name             = 'UBiddingRoiPlusAdapter'
+  s.version          = '0.5.4.0'
+  s.summary          = 'UBiX聚合Saas SDK RoiPlus Adapter'
+  s.homepage         = 'https://www.ubixai.com/product/md'
+  s.author           = { 'zhugq' => 'guoqiang.zhu@ubixai.com' }
+  s.source           = { :git => 'https://github.com/ubixai/UBiddingRoiPlusAdapter.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '13.0'
+
+  s.static_framework = true
+  s.vendored_frameworks = 'UBiddingRoiPlusAdapter.xcframework'
+
+  s.dependency 'RoiPlusSDK', '0.5.4'
+  s.dependency 'UBiddingAdSDK'
+end

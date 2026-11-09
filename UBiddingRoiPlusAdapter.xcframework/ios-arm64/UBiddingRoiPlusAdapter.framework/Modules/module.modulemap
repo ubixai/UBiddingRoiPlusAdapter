@@ -1,0 +1,6 @@
+framework module UBiddingRoiPlusAdapter {
+  umbrella header "UBiddingRoiPlusAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
